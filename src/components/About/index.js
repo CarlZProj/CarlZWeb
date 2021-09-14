@@ -36,7 +36,7 @@ const About = ({ mainStyle }) => {
 							</Description>
 							<BtnWrap>
 								<ResumeDownload
-									to="../../assets/Resume_V1.pdf"
+									to="src\assets\Resume_V1.pdf"
 									target="_blank"
 									download
 									resumeStyle={mainStyle}

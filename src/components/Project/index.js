@@ -34,6 +34,10 @@ const Project = ({ mainStyle }) => {
 						<ProjectH>Coming Soon</ProjectH>
 						<ProjectBufferGIF src={BufferGIF} alt={"project coming soon"} />
 					</ProjectCard>
+					<ProjectCard>
+						<ProjectH>Coming Soon</ProjectH>
+						<ProjectBufferGIF src={BufferGIF} alt={"project coming soon"} />
+					</ProjectCard>
 				</ProjectWrapper>
 			</ProjectContainer>
 		</SectionContainer>

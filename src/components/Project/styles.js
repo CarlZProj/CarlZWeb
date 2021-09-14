@@ -24,7 +24,7 @@ export const ProjectContainer = styled.div`
 	align-items: center;
 
 	@media screen and (max-width: 480px) {
-		height: 800px;
+		height: 1000px;
 	}
 `;
 
