@@ -1,6 +1,7 @@
 import React from "react";
 
 import ZCraftProject from "../../assets/images/zcraft.PNG";
+import SearchZRiftProject from "../../assets/images/searchzrift.PNG";
 import BufferGIF from "../../assets/videos/buffer.gif";
 
 import { SectionContainer } from "../Section/styles";
@@ -30,9 +31,14 @@ const Project = ({ mainStyle }) => {
 						<ProjectIcon src={ZCraftProject} />
 						<ProjectP>Aircraft Shoot'em Up Game</ProjectP>
 					</ProjectCard>
-					<ProjectCard>
-						<ProjectH>Coming Soon</ProjectH>
-						<ProjectBufferGIF src={BufferGIF} alt={"project coming soon"} />
+					<ProjectCard
+						href="//searchzrift.herokuapp.com/"
+						target="_blank"
+						aria-label="SearchZRift"
+					>
+						<ProjectH>SearchZRift</ProjectH>
+						<ProjectIcon src={SearchZRiftProject} />
+						<ProjectP>League of Legends Lobby Checker</ProjectP>
 					</ProjectCard>
 					<ProjectCard>
 						<ProjectH>Coming Soon</ProjectH>
