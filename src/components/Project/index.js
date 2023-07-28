@@ -1,7 +1,8 @@
 import React from "react";
 
-import ZCraftProject from "../../assets/images/zcraft.PNG";
-import SearchZRiftProject from "../../assets/images/searchzrift.PNG";
+import ZCraftProject from "../../assets/images/zcraft.png";
+import SearchZRiftProject from "../../assets/images/searchzrift.png";
+import CarlZAlgoProject from "../../assets/images/carlzalgo.jpg";
 import BufferGIF from "../../assets/videos/buffer.gif";
 
 import { SectionContainer } from "../Section/styles";
@@ -39,6 +40,15 @@ const Project = ({ mainStyle }) => {
 						<ProjectH>SearchZRift</ProjectH>
 						<ProjectIcon src={SearchZRiftProject} />
 						<ProjectP>League of Legends Lobby Checker</ProjectP>
+					</ProjectCard>
+					<ProjectCard
+						href="//www.github.com/CarlZProj/carlzalgo/"
+						target="_blank"
+						aria-label="CarlZAlgo"
+					>
+						<ProjectH>CarlZAlgo</ProjectH>
+						<ProjectIcon src={CarlZAlgoProject} />
+						<ProjectP>Alpaca Paper Trading Algorithm</ProjectP>
 					</ProjectCard>
 					<ProjectCard>
 						<ProjectH>Coming Soon</ProjectH>

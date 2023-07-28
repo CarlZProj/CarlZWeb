@@ -23,8 +23,12 @@ export const ProjectContainer = styled.div`
 	justify-content: center;
 	align-items: center;
 
+	@media screen and (max-width: 768px) {
+		height: 800px;
+	}
+
 	@media screen and (max-width: 480px) {
-		height: 1000px;
+		height: 1500px;
 	}
 `;
 
@@ -32,7 +36,7 @@ export const ProjectWrapper = styled.div`
 	max-width: 1000px;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	align-items: center;
 	grid-gap: 16px;
 	padding: 0 25px;

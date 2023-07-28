@@ -23,7 +23,7 @@ const About = ({ mainStyle }) => {
 						<TextWrapper>
 							<Heading text={mainStyle}>About</Heading>
 							<Description text={mainStyle}>
-								Hi, I'm Carl Zhang, currently studying Computer Engineering (3B)
+								Hi, I'm Carl Zhang, currently studying Computer Engineering (4A)
 								at the University of Waterloo.
 								<br />
 								<br />I GAME a lot! It's the prime reason why I started
@@ -34,14 +34,17 @@ const About = ({ mainStyle }) => {
 								Languages: Java, C++, Python, HTML, CSS, JS
 								<br />
 								<br />
+								Frameworks: "React", Angular, Django, Spring Boot
+								<br />
+								<br />
 								Interests: Badminton, Skiing, Video Games
 								<br />
 								<br />
-								Currently looking for Winter 2023 Internship Opportunities
+								Currently looking for Fall 2023 Internship Opportunities
 							</Description>
 							<BtnWrap>
 								<ResumeDownload
-									to="/assets/Fall_2022_V2.pdf"
+									to="/assets/Carl_Zhang_Resume_External.pdf"
 									target="_blank"
 									download
 									resumeStyle={mainStyle}
@@ -54,10 +57,7 @@ const About = ({ mainStyle }) => {
 					</Column1>
 					<Column2>
 						<ImgWrap>
-							<Img
-								src={require("../../assets/images/carl.jpg").default}
-								alt={"carl"}
-							/>
+							<Img src={require("../../assets/images/carl.jpg")} alt={"carl"} />
 						</ImgWrap>
 					</Column2>
 				</InfoRow>
